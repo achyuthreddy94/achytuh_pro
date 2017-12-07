@@ -18,7 +18,6 @@ pipeline {
                  stage('Deploy') {
                   steps {
                        echo 'Hello World'
-                       }
-                      }
+                      build job:'JOBB'                     }
                      }
                     }
